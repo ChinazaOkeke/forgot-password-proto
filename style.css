@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  overflow-x: hidden;
+  background: linear-gradient(
+    124.05deg,
+    rgba(0, 49, 112, 0.9) 52.28%,
+    rgba(2, 62, 138, 0.81) 68.75%
+  );
+  width: 100%;
+}
+
+.nav_bar {
+  display: flex;
+  width: 100vw;
+  height: 12vh;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+}
+
+.image {
+  background: transparent;
+}
+
+.logo_div {
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 20;
+  padding: 0 5%;
+}
+
+.logo_title {
+  width: 110px;
+  height: 36px;
+  margin-left: 10px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.button_div {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5%;
+}
+.login_btn {
+  border: 1.5px white solid;
+  border-radius: 5px;
+  background: transparent;
+  font-family: "Work Sans";
+  font-style: normal;
+  line-height: 10px;
+  color: white;
+  width: 10vw;
+  font-weight: 700;
+}
+.login_btn:hover {
+  background-color: white;
+  color: #023e8a;
+  cursor: pointer;
+}
+.signup_btn {
+  border: 1.5px white solid;
+  border-radius: 5px;
+  background: white;
+  font-family: "Work Sans";
+  font-style: normal;
+  line-height: 32px;
+  font-weight: 700;
+  color: #023e8a;
+  width: 10vw;
+}
+.signup_btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.body{
+  text-align: center;
+  margin-top: 110px;
+}
+h1{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+}
+.text-paragraph{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+.button{
+  background: #023E8A;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 32px;
+  gap: 8px;
+  border-radius: 8px;
+  margin: 20px 545px 11px 545px ;
+  align-content: center;
+}
+.button a{
+  text-decoration: none;
+  color: #F7F3F3;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+.resend{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #6F6F6F;
+
+}
+.resend a{
+  color:  rgba(44, 94, 157, 1);
+  text-decoration: none;
+}
+@media screen and (max-width: 800px) {
+  .nav_bar {
+   width: 100%; 
+  }
+  .logo_div {
+  height: 90%;
+  width: 50%;
+  }
+ p.logo_title{
+    font-size: 20px;
+  }
+  .image{
+    width: 24px;
+    height: 37px;
+  }
+  .button_div {
+    height: 30%;
+  width: 50%;
+  margin-right: 0;
+  }
+.login_btn {
+  width: 20vw;
+  }
+  .signup_btn {
+  width: 20vw;
+  line-height: 20px;
+  }
+  h1{
+  font-size: 24px;
+  }
+.text-paragraph{
+  font-size: 15px;
+  line-height: 20px;
+  }
+.button{
+  padding: 8px 32px;
+  gap: 8px;
+  border-radius: 8px;
+  margin: 28px 40px 11px 40px ;
+  }
+  .resend{
+  font-size: 11px;
+  }
+  .button a{
+    font-size: 11px;
+  }
+}
